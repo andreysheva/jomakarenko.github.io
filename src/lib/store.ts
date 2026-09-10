@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import type { LandmarkState, SkyWish } from "../types";
 import { LANDMARKS } from "../data/landmarks";
+import { asset } from "./assets";
 
 let audioEl: HTMLAudioElement | null = null;
 
@@ -58,7 +59,7 @@ export const useAppStore = create<LandmarkState>((set, get) => ({
 
   startAudio: () => {
     if (!audioEl && !get().audioPlaying) {
-      audioEl = new Audio("/audio/cornerstone.mp3");
+      audioEl = new Audio(asset("/audio/cornerstone.mp3"));
       audioEl.loop = true;
       audioEl.volume = 0.5;
       audioEl.play()

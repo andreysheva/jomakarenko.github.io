@@ -1,4 +1,5 @@
 import type { LandmarkData } from "../types";
+import { asset } from "../lib/assets";
 
 export const LANDMARKS: LandmarkData[] = [
   {
@@ -9,7 +10,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6, 12],
     description:
       "Our absolute favorite weed shop in Bangkok! Remember the cozy lounge, warm neon lights, and amazing vibes every time we stopped by to relax together?",
-    images: ["/images/fatbuds.jpeg"],
+    images: [asset("/images/fatbuds.jpeg")],
     color: "#e76f51",
     buildingType: "shop",
   },
@@ -21,7 +22,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6, 12],
     description:
       "Where it all began! Our magical first date — incredible dark cozy atmosphere, live indie/jazz music, and that nervous excitement of falling for each other.",
-    images: ["/images/black_cabin.webp"],
+    images: [asset("/images/black_cabin.webp")],
     color: "#4a3b4e",
     buildingType: "bar",
   },
@@ -33,7 +34,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6.2, 12],
     description:
       "The romantic boutique haven of our very first hotel stay together! Charming French-Siamese architecture, marble courtyard, and unforgettable morning coffee.",
-    images: ["/images/le-petit-salil.jpg", "/images/le-petit-salil2.jpeg"],
+    images: [asset("/images/le-petit-salil.jpg"), asset("/images/le-petit-salil2.jpeg")],
     color: "#d4a373",
     buildingType: "hotel",
   },
@@ -45,7 +46,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6.5, 12],
     description:
       "That unforgettable rooftop evening listening to tropical rain! And of course, the legendary guard who greeted us with the most enthusiastic 'KAAAAP!' every single time we walked through the gates.",
-    images: ["/images/shine.jpeg"],
+    images: [asset("/images/shine.jpeg")],
     color: "#6d597a",
     buildingType: "hotel",
   },
@@ -57,7 +58,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 14, 18],
     description:
       "The breathless 51st floor apartment with crazy panoramic views of Bangkok and mirrors everywhere! Watching the golden sunset skyline over the Chao Phraya River from way up high.",
-    images: ["/images/lebua.jpg"],
+    images: [asset("/images/lebua.jpg")],
     color: "#355070",
     buildingType: "hotel",
   },
@@ -69,7 +70,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6, 12],
     description:
       "The last weed shop we visited and worked together at! Right in front of that famous 'monkey massage' place — such sweet memories of co-working side by side in Phrom Phong.",
-    images: ["/images/slow_burn.jfif"],
+    images: [asset("/images/slow_burn.jfif")],
     color: "#2a9d8f",
     buildingType: "shop",
   },
@@ -81,7 +82,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 11, 16],
     description:
       "Our home for a month and a half! Remember getting noise complaints and that legendary hipster neighbor who told on us? The best 6 weeks living together in Bangkok.",
-    images: ["/images/park_origin.jfif"],
+    images: [asset("/images/park_origin.jfif")],
     color: "#e07a5f",
     buildingType: "condo",
   },
@@ -93,7 +94,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6.5, 12],
     description:
       "Hands down the best food in Bangkok with the most stunning interior design! Glass roof, hanging flora, candlelit dinners, and dishes we still dream about.",
-    images: ["/images/Dreamloft.jpg"],
+    images: [asset("/images/Dreamloft.jpg")],
     color: "#e76f51",
     buildingType: "restaurant",
   },
@@ -105,7 +106,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6, 12],
     description:
       "Hidden behind a secret Chinese doorway with the best cocktails in the world! Remember finding the legendary 'I hope you so rich' sticker pasted on the brick wall?",
-    images: ["/images/chinese_cocktails.jpg"],
+    images: [asset("/images/chinese_cocktails.jpg")],
     color: "#e63946",
     buildingType: "bar",
   },
@@ -117,7 +118,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 5.8, 12],
     description:
       "We had so much fun playing competitive badminton matches! Even though there was no AC and we sweated way too much, your energy and laughter made it unforgettable.",
-    images: ["/images/badminton.jpg"],
+    images: [asset("/images/badminton.jpg")],
     color: "#f4a261",
     buildingType: "sports",
   },
@@ -129,7 +130,7 @@ export const LANDMARKS: LandmarkData[] = [
     cameraOffset: [0, 6, 12],
     description:
       "🔒 This romantic memory is locked! Complete all other landmark visits to unlock this special future date.",
-    images: ["/images/fatbuds-2.jpg"],
+    images: [asset("/images/fatbuds-2.jpg")],
     color: "#9b5de5",
     buildingType: "sports",
     locked: true,
